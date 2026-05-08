@@ -1,0 +1,9 @@
+"use strict";
+const utils_http = require("../utils/http.js");
+const getSetmealAPI = (id) => {
+  return utils_http.http({
+    method: "GET",
+    url: `/user/setmeal/${id}`
+  });
+};
+exports.getSetmealAPI = getSetmealAPI;

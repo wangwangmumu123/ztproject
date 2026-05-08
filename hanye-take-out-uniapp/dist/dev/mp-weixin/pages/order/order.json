@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "navigationBarTitleText": "购物",
+  "usingComponents": {
+    "navbar": "./components/Navbar"
+  }
+}
